@@ -20,7 +20,7 @@
 <nav class="navbar navbar-expand-md fixed-top bg-body-tertiary" id="navegacion">
     <div class="container-fluid justify-content-md-center">
         <a href="#" class="navbar-brand d-flex justify-content-center">
-            <img src="imgs/logo-va-por-los-arboles-no-oficial.png" class="img-fluid" width="90" alt="">
+            <img src="imgs/logotipo_va_por_los_arboles.png" class="img-fluid" width="90" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -78,6 +78,8 @@
 
     
                     </ul>
+
+                    <p class="verde-primary text-center"> Supercivios</p>
                 </div>
             </div>
 
@@ -85,11 +87,11 @@
     </div>
 </nav>
 <!-- section Hero -->
- <div class="hero first-content-after-menu d-grid align-items-center" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('imgs/vista-de-arboles-en-el-parque.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; ">
+ <div class="hero first-content-after-menu d-grid align-items-center" style="background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('imgs/vista-de-arboles-en-el-parque.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; ">
     <div class="container" style="padding-top: 50px;">
         <div class="row row-cols-1 row-cols-lg-2 flex-row-reverse justify-content-end align-items-center ">
             <div class="col in-right">
-                <div class="px-4 py-5 text-justify">
+                <div class="rounded shadow px-4 py-5 text-justify" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));" >
                     <p class="text-white text-intro"> 
                         <span class="strong-letter">VaXlosArboles</span> es una iniciativa de <span class="strong-letter">Supercívicos</span>, <span class="strong-letter">Reforestamos</span> e <span class="strong-letter">Imperfect Project</span>,
                         diseñada para crear conciencia y movilizar acciones que protejan el arbolado urbano
@@ -132,13 +134,13 @@
 
 <!-- Action sections (Videos YT - Tik-Tok (Videos) - btn twitter(X)) -->
 <div class="hero">
-    <div class="text-acciones" style="margin-top: 50px;">
+    <div class="text-acciones" style="margin-top: 50px; margin-bottom: 50px;">
         <h2 class="text-center verde-primary display-4 fw-semibold"> Acciones </h2>
     </div>
 
     <div class="container">
-        <div class="row row-cols-1 row-cols-md-auto row-cols-lg-2 justify-content-center ">
-            <div class="col">
+        <div class="row row-cols-1 justify-content-center">
+            <div class="col-12 col-md-8">
                 <!-- Hacer carrusel los videos  -->
                 <div class="row justify-content-center">
 
@@ -205,7 +207,7 @@
             </div>
             <!-- Feed Tik-Tok  -->
             <div class="col p-3">
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col shadow-sm rounded">
                         <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@lossupercivicos" data-unique-id="lossupercivicos" data-embed-from="embed_page" data-embed-type="creator" style="max-width:780px; min-width:288px;"> <section> <a target="_blank" href="https://www.tiktok.com/@lossupercivicos?refer=creator_embed">@lossupercivicos</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
                     </div>
@@ -220,7 +222,7 @@
 </div>
 
 <!-- Guides tools  --> 
- <div class="hero" style="background: rgba(33, 137, 30, .8);">
+ <div class="hero" style="background: rgba(33, 137, 30, .8); padding-top: 100px; padding-bottom: 100px;">
     <div class="text-acciones" style="margin-bottom: 50px;">
         <h2 class="text-center display-3 fw-semibold text-white"> Herramientas </h2>
     </div>

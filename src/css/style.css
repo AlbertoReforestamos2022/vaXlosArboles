@@ -64,7 +64,7 @@ body {
 }
 
 .strong-letter {
-    color: rgba(33, 137, 30, 1)!important;
+    color: #94ce58!important;
     font-weight: 700!important;
 }
 
@@ -76,7 +76,6 @@ body {
 .nav-link {
     color: rgba(96, 72, 43, 1)!important;
     font-size: 18px!important;
-    font-weight: 600!important;
 }
 
 .text-justify {

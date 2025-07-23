@@ -144,15 +144,15 @@
 <div class="hero">
     <div class="text-acciones" style="margin-top: 50px; margin-bottom: 50px;">
         <h2 class="text-center   "> 
-            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding: 15px; border-radius: 50px;">
+            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding-right: 15px; padding-left: 15px; border-radius: 50px;">
                 Acciones
             </span>    
         </h2>
     </div>
 
     <div class="container">
-        <div class="row row-cols-1 justify-content-center">
-            <div class="col-12 col-md-8">
+        <div class="row row-cols-1 row-cols-lg-2 justify-content-center">
+            <div class="col">
                 <!-- Hacer carrusel los videos  -->
                 <div class="row justify-content-center">
 
@@ -273,7 +273,7 @@
                 </div>
             </div>
 
-            <div class="col container-transition-right scroll-right">
+            <div class="col col-md-4 container-transition-right scroll-right">
                 <div class="card d-grid align-items-center border-0 bg-white shadow rounded h-100">
                     <div class="card-body">
                         <p>
@@ -294,7 +294,7 @@
 <div class="container">
     <div class="text-acciones" style="margin-top: 50px;">
         <h2 class="text-center"> 
-            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding: 15px; border-radius: 50px;">
+            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding-right: 15px; padding-left: 15px; border-radius: 50px;">
                 Aliados
             </span>     
 
@@ -321,7 +321,7 @@
                 Técnicos
             </span>  
 
-            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding: 10px; border-radius: 50px;">
+            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding-right: 15px; padding-left: 15px; border-radius: 50px;">
                 arboristas
             </span>     
     
@@ -390,6 +390,8 @@
     </div>
     
 </div>
+
+<!-- Sección donativo -->
 
 <!-- Mapa de resultados 2da etapa (trabajarlo) -->
 <!-- Chatbot con preguntas frecuentes -->

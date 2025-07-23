@@ -189,6 +189,7 @@ body {
 }
 
 */
+/* Agregar media queries para pantallas más pequeñas y dispositivos móviles */
 .container-transition-right {
     opacity: 0;
     transform: translateX(200px);
@@ -196,6 +197,7 @@ body {
     will-change: opacity, transform;
 }
 
+/* Agregar media queries para pantallas más pequeñas y dispositivos móviles */
 .container-transition-left {
     opacity: 0;
     transform: translateX(-200px);

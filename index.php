@@ -17,7 +17,7 @@
         Café primary: rgba(96, 72, 43, 1);
     -->
 <!-- Menú Header -->
-<nav class="navbar navbar-expand-md fixed-top bg-white" id="navegacion">
+<nav class="navbar navbar-expand-md fixed-top shadow bg-white" id="navegacion">
     <div class="container-fluid justify-content-md-center">
         <a href="#" class="navbar-brand d-flex justify-content-center">
             <img src="imgs/logotipo_va_por_los_arboles.png" class="img-fluid logo" alt="">
@@ -27,7 +27,7 @@
         </button>
 
         <!-- collapse navbar -->
-         <div class="collapse navbar-collapse justify-content-md-evenly"  id="navbarNav">
+         <div class="collapse navbar-collapse justify-content-md-between"  id="navbarNav">
             <div class="row justify-content-between">
                 <div class="col">
                     <ul class="navbar-nav">
@@ -87,7 +87,7 @@
                 </div>
 
                 <div class="">
-                    <a class="btn btn-warning text-white btn-foundiing" href="#"> Founding </a>
+                    <a class="btn btn-warning text-white px-3 btn-foundiing" style="border-radius: 15px!important;" href="#"> Donar </a>
                 </div>
             </div>
 
@@ -151,8 +151,8 @@
     </div>
 
     <div class="container">
-        <div class="row row-cols-1 row-cols-lg-2 justify-content-center">
-            <div class="col">
+        <div class="row row-cols-1 justify-content-center">
+            <div class="col-12 col-xl-9">
                 <!-- Hacer carrusel los videos  -->
                 <div class="row justify-content-center">
 

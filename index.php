@@ -17,10 +17,10 @@
         Café primary: rgba(96, 72, 43, 1);
     -->
 <!-- Menú Header -->
-<nav class="navbar navbar-expand-md fixed-top bg-body-tertiary" id="navegacion">
+<nav class="navbar navbar-expand-md fixed-top bg-white" id="navegacion">
     <div class="container-fluid justify-content-md-center">
         <a href="#" class="navbar-brand d-flex justify-content-center">
-            <img src="imgs/logotipo_va_por_los_arboles.png" class="img-fluid" width="90" alt="">
+            <img src="imgs/logotipo_va_por_los_arboles.png" class="img-fluid logo" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,24 +38,28 @@
                             <a href="" class="nav-link">Acciones</a>
                         </li>
                         <li class="nav-item text-md-center">
-                            <a href="" class="nav-link"> Herramientas para la ciudadanía </a>
+                            <a href="" class="nav-link"> Herramientas</a>
                         </li>
                         <li class="nav-item text-md-center">
-                            <a href="" class="nav-link"> Conecta </a>
+                            <a href="" class="nav-link"> Aliados </a>
                         </li>
                         <li class="nav-item text-md-center">
-                            <a href="" class="nav-link"> Reconoce </a>
+                            <a href="" class="nav-link"> Ténicos </a>
                         </li>
+                        <li class="nav-item text-md-center">
+                            <a href="" class="nav-link"> Reporta </a>
+                        </li>
+
 
                     </ul>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row row-cols-auto align-items-center">
                 <div class="d-grid justify-content-center justify-content-md-end align-items-md-center">
                     <ul class="d-flex list-unstyled gap-3 m-0">
                         <li class="nav-item text-decoration-none text-center">
-                            <a href="" class=" font-size-25 verde-primary">
+                            <a href="" class="font-size-25 verde-primary">
                                 <i class="bi bi-facebook"></i>
                             </a>
                         </li>
@@ -78,8 +82,12 @@
 
     
                     </ul>
+                    <img src="imgs/logo-suuper-civicos.png" width="100" class="img-fluid logo-supercivicos-menu" alt="" srcset="">                 
 
-                    <p class="verde-primary text-center"> Supercivios</p>
+                </div>
+
+                <div class="">
+                    <a class="btn btn-warning text-white btn-foundiing" href="#"> Founding </a>
                 </div>
             </div>
 
@@ -91,7 +99,7 @@
     <div class="container" style="padding-top: 50px;">
         <div class="row row-cols-1 row-cols-lg-2 flex-row-reverse justify-content-end align-items-center ">
             <div class="col in-right">
-                <div class="rounded shadow px-4 py-5 text-justify" style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));" >
+                <div class="rounded shadow px-4 py-5 text-justify" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); backdrop-filter: blur(1px);" >
                     <p class="text-white text-intro"> 
                         <span class="strong-letter">VaXlosArboles</span> es una iniciativa de <span class="strong-letter">Supercívicos</span>, <span class="strong-letter">Reforestamos</span> e <span class="strong-letter">Imperfect Project</span>,
                         diseñada para crear conciencia y movilizar acciones que protejan el arbolado urbano
@@ -135,7 +143,11 @@
 <!-- Action sections (Videos YT - Tik-Tok (Videos) - btn twitter(X)) -->
 <div class="hero">
     <div class="text-acciones" style="margin-top: 50px; margin-bottom: 50px;">
-        <h2 class="text-center verde-primary display-4 fw-semibold"> Acciones </h2>
+        <h2 class="text-center   "> 
+            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding: 15px; border-radius: 50px;">
+                Acciones
+            </span>    
+        </h2>
     </div>
 
     <div class="container">
@@ -224,39 +236,54 @@
 <!-- Guides tools  --> 
  <div class="hero" style="background: rgba(33, 137, 30, .8); padding-top: 100px; padding-bottom: 100px;">
     <div class="text-acciones" style="margin-bottom: 50px;">
-        <h2 class="text-center display-3 fw-semibold text-white"> Herramientas </h2>
+        <h2 class="text-center display-2 text-white"> Herramientas </h2>
     </div>
 
     <div class="container">
-        <div class="row row-cols-1 justify-content-center">
-            <div class="col-auto">
-                <div class="card d-flex justify-content-center border-0 bg-transparent container-tool">
+        <div class="row row-cols-1 row-cols-lg-2 justify-content-center justify-content-md-evenly">
+            <div class="col d-flex justify-content-center sections-tools container-transition-left scroll-left">
+                <div class="card border-0 bg-transparent container-tool">
                     <img src="imgs/inaturalist.png" class="img-fluid card-img-top img-content-tool" alt="">
 
-                    <ul class="list-group letter-content-tool">
-                        <li class="list-group-item">
-                            <a href="#" class="btn btn-outline-success m-2 text-center">
-                                ¡Naturalist 
-                            </a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#" class="btn btn-outline-success m-2 text-center">
-                                Reporte ambiental ciudadano
-                            </a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#" class="btn btn-outline-success m-2 text-center">
-                                ¿Cómo cuido el árbol en mi colonia?
-                            </a>
-                        </li>
-                        <li class="list-group-item">
-                            <a href="#" class="btn btn-outline-success m-2 text-center">
-                                ¿Qué árbol plantar? 
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="letter-content-tool">
+                        <ul class="list-group border-0 shadow">
+                            <li class="list-group-item border-0">
+                                <a href="#" class="btn btn-outline-success m-2 text-center">
+                                    ¡Naturalist 
+                                </a>
+                            </li>
+                            <li class="list-group-item border-0">
+                                <a href="#" class="btn btn-outline-success m-2 text-center">
+                                    Reporte ambiental ciudadano
+                                </a>
+                            </li>
+                            <li class="list-group-item border-0">
+                                <a href="#" class="btn btn-outline-success m-2 text-center">
+                                    ¿Cómo cuido el árbol en mi colonia?
+                                </a>
+                            </li>
+                            <li class="list-group-item border-0">
+                                <a href="#" class="btn btn-outline-success m-2 text-center">
+                                    ¿Qué árbol plantar? 
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
                 </div>
+            </div>
+
+            <div class="col container-transition-right scroll-right">
+                <div class="card d-grid align-items-center border-0 bg-white shadow rounded h-100">
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, nam dignissimos. 
+                            Atque maxime nesciunt exercitationem accusamus nostrum, odio officiis sapiente eius quam fugit voluptatem aliquid culpa saepe cum, rem et!
+                        </p>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
@@ -266,7 +293,12 @@
 <!-- Sponsor´s section  -->
 <div class="container">
     <div class="text-acciones" style="margin-top: 50px;">
-        <h2 class="text-center verde-primary display-4 fw-semibold"> Nuestros aliados </h2>
+        <h2 class="text-center"> 
+            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding: 15px; border-radius: 50px;">
+                Aliados
+            </span>     
+
+        </h2>
     </div>
 
     <div class="row row-cols-1 row-cols-md-auto justify-content-evenly align-items-center my-5">
@@ -283,54 +315,80 @@
 <!-- Biografía expertos -->
 <!-- Técnicos arboristas -->
 <div class="container">
-    <div class="text-acciones" style="margin-top: 50px;">
-        <h2 class="text-center verde-primary display-4 fw-semibold"> Técnicos arboristas </h2>
+    <div class="text-acciones" style="margin-top: 50px; margin-bottom: 50px;">
+        <h2 class="text-center"> 
+            <span class="verde-primary display-4">
+                Técnicos
+            </span>  
+
+            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding: 10px; border-radius: 50px;">
+                arboristas
+            </span>     
+    
+        </h2>
+
+ 
     </div>
 
-    <div class="row row-cols-1 justify-content-center align-items-center">
-        <div class="col gy-3">
-            <div class="card border-0 bg-transparent shadow-sm">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="imgs/imagen-arturo.png" class="img-fluid img-card-top" width="300" alt="Logo Grupo Bimbo">
-                    </div>
+    <div class="row row-cols-auto justify-content-center align-items-center">
+        <div class="col">
+            <div class="card border-0 shadow" style="background:rgba(33, 137, 30, .8); border-radius: 25px;">
+                <img src="imgs/imagen-arturo.png" class="img-fluid img-card-top pointer" data-bs-toggle="modal" data-bs-target="#modalTecnicoUno" width="200" alt="Logo Grupo Bimbo">
+            </div>
 
-                    <div class="col-md-8">
-                        <div class="card-body border-0 bg-transparent">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Nombre</li>
-                                <li class="list-group-item">Profesión</li>
-                                <li class="list-group-item">Experiencia</li>
-                            </ul>
+            <!-- Modal -->
+            <div class="modal fade" id="modalTecnicoUno" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTecnicoUnoLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalTecnicoUnoLabel">Nombre</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Biografía Técnico 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-success">CTA´s</button>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>            
         </div>
 
-        <div class="col gy-3">
-            <div class="card border-0 bg-transparent shadow-sm">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="imgs/imagen-arturo.png" class="img-fluid img-card-top" width="300" alt="Logo Grupo Bimbo">
-                    </div>
+        <div class="col">
+            <div class="card border-0 shadow" style="background:rgba(33, 137, 30, .8); border-radius: 25px;">
+                <img src="imgs/imagen-arturo.png" data-bs-toggle="modal" data-bs-target="#modalTecnicoDos" class="img-fluid img-card-top" width="200" alt="Logo Grupo Bimbo">
+            </div>
 
-                    <div class="col-md-8">
-                        <div class="card-body border-0 bg-transparent">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Nombre</li>
-                                <li class="list-group-item">Profesión</li>
-                                <li class="list-group-item">Experiencia</li>
-                            </ul>
+            <!-- Modal -->
+            <div class="modal fade" id="modalTecnicoDos" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTecnicoDosLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalTecnicoDosLabel">Nombre</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Biografía Técnico 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-success">CTA´s</button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>      
+            </div> 
+        </div>  
+
     </div>
 </div>
+
 <div class="container">
-    <a href="https://twitter.com/intent/tweet?button_hashtag=WhatsHappening&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #WhatsHappening</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="row">
+        <a href="https://twitter.com/intent/tweet?button_hashtag=WhatsHappening&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #WhatsHappening</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    
 </div>
 
 <!-- Mapa de resultados 2da etapa (trabajarlo) -->
@@ -341,5 +399,6 @@
 </body>
 
 <script src="src/js/header.js"></script>
+<script src="src/js/body.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </html>

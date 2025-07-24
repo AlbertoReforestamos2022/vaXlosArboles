@@ -175,6 +175,22 @@ body {
     cursor: pointer;
 }
 
+/* actions map */
+
+/* Media queries */
+
+.actions-content-map {
+    width: 450px;
+    max-height: 450px; /* Ajusta la altura máxima */
+
+    overflow-y: auto; /* Actica el scroll vertical cuando sea necesario  */
+    padding: 10px;
+
+    z-index: 500;
+}
+
+
+
 /* Section Tools - Herramientas  */
 /*
 .sections-tools {
@@ -231,6 +247,14 @@ body {
 .container.tool:hover .letter-content-tool {
 
 }
+
+/* Sección aliados */
+
+/* Seccción biogafía */
+
+/* Sección Reporta */
+
+
 
 
 /* Animations */

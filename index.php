@@ -6,6 +6,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- leafleat -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <title>Document</title>
     <link rel="stylesheet" href="src/css/style.css">
 </head>
@@ -70,7 +74,7 @@
                             </a>
                         </li>
                         <li class="nav-item text-decoration-none text-center">
-                            <a href="" class=" font-size-25 verde-primary">
+                            <a href="https://twitter.com/intent/tweet?button_hashtag=WhatsHappening&ref_src=twsrc%5Etfw" class=" font-size-25 verde-primary">
                                 <i class="bi bi-twitter-x"></i>
                             </a>
                         </li>
@@ -87,7 +91,7 @@
                 </div>
 
                 <div class="">
-                    <a class="btn btn-warning text-white px-3 btn-foundiing" style="border-radius: 15px!important;" href="#"> Donar </a>
+                    <a class="btn btn-warning text-white px-4 btn-foundiing" style="border-radius: 15px!important;" href="#"> GoFundMe </a>
                 </div>
             </div>
 
@@ -143,16 +147,14 @@
 <!-- Action sections (Videos YT - Tik-Tok (Videos) - btn twitter(X)) -->
 <div class="hero">
     <div class="text-acciones" style="margin-top: 50px; margin-bottom: 50px;">
-        <h2 class="text-center   "> 
-            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding-right: 15px; padding-left: 15px; border-radius: 50px;">
-                Acciones
-            </span>    
+        <h2 class="text-center verde-primary display-4"> 
+         Acciones
         </h2>
     </div>
 
     <div class="container">
         <div class="row row-cols-1 justify-content-center">
-            <div class="col-12 col-xl-9">
+            <div class="col-12 col-xl-7">
                 <!-- Hacer carrusel los videos  -->
                 <div class="row justify-content-center">
 
@@ -229,6 +231,23 @@
         </div>
     </div>
 
+    <!-- Incorporar mapa de acciones -->
+    <!-- Mapa de resultados 2da etapa (trabajarlo) -->
+    <div class="container">
+        <p class="text-center h3" style="color: #94ce58!important;" >Conoce los lugarres donde se está tomando acción:</p>
+
+        <div class="row row-cols-1 justify-content-center">
+            <div class="col-12 py-3">
+                <div class="card border-0">
+                    <div class="shadow rounded" id="actionsMap" style="height: 500px;">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
 </div>
@@ -277,8 +296,7 @@
                 <div class="card d-grid align-items-center border-0 bg-white shadow rounded h-100">
                     <div class="card-body">
                         <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, nam dignissimos. 
-                            Atque maxime nesciunt exercitationem accusamus nostrum, odio officiis sapiente eius quam fugit voluptatem aliquid culpa saepe cum, rem et!
+                            Texto que indique que se tiene que hacer clic en los botones de la lista del teléfono. 
                         </p>
                     </div>
 
@@ -293,20 +311,17 @@
 <!-- Sponsor´s section  -->
 <div class="container">
     <div class="text-acciones" style="margin-top: 50px;">
-        <h2 class="text-center"> 
-            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding-right: 15px; padding-left: 15px; border-radius: 50px;">
-                Aliados
-            </span>     
-
+        <h2 class="text-center display-4 verde-primary"> 
+            Aliados
         </h2>
     </div>
 
     <div class="row row-cols-1 row-cols-md-auto justify-content-evenly align-items-center my-5">
-        <div class="col d-flex justify-content-center my-3">
+        <div class="col d-flex justify-content-center my-3 container-transition-left scroll-left">
             <img src="imgs/logo-bimbo-copia.png" class="img-fluid" width="200" alt="Logo Grupo Bimbo">
         </div>
 
-        <div class="col my-3">
+        <div class="col my-3 container-transition-right scroll-right">
             <h2 class="fw-bold text-center">Fundación Pepe</h2>
         </div>        
     </div>
@@ -314,30 +329,22 @@
 
 <!-- Biografía expertos -->
 <!-- Técnicos arboristas -->
-<div class="container">
+ <!--Nuestros asesores arboritas especialistas  -->
+<div class="container" style="margin-top: 20px; margin-bottom: 50px;">
     <div class="text-acciones" style="margin-top: 50px; margin-bottom: 50px;">
-        <h2 class="text-center"> 
-            <span class="verde-primary display-4">
-                Técnicos
-            </span>  
-
-            <span class="text-white display-4" style="background: rgba(33, 137, 30, .8); padding-right: 15px; padding-left: 15px; border-radius: 50px;">
-                arboristas
-            </span>     
-    
-        </h2>
-
- 
+        <h2 class="text-center verde-primary display-4"> 
+            Técnicos arboristas
+        </h2> 
     </div>
 
-    <div class="row row-cols-auto justify-content-center align-items-center">
-        <div class="col">
-            <div class="card border-0 shadow" style="background:rgba(33, 137, 30, .8); border-radius: 25px;">
-                <img src="imgs/imagen-arturo.png" class="img-fluid img-card-top pointer" data-bs-toggle="modal" data-bs-target="#modalTecnicoUno" width="200" alt="Logo Grupo Bimbo">
+    <div class="row row-cols-1 row-cols-md-auto justify-content-center align-items-center gap-3">
+        <div class="col d-flex justify-content-center">
+            <div class="card border-0 shadow" style="background:rgba(33, 137, 30, .8); border-radius: 50%;">
+                <img src="imgs/Foto-para-reseña.png" class="img-fluid img-card-top pointer" data-bs-toggle="modal" data-bs-target="#modalTecnicoUno" width="200" alt="Logo Grupo Bimbo">
             </div>
 
             <!-- Modal -->
-            <div class="modal fade" id="modalTecnicoUno" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTecnicoUnoLabel" aria-hidden="true">
+            <div class="modal fade border-0" id="modalTecnicoUno" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTecnicoUnoLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -345,20 +352,19 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            Biografía Técnico 
+                            Biografía arborista 
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-success">CTA´s</button>
                         </div>
                     </div>
                 </div>
             </div>            
         </div>
 
-        <div class="col">
-            <div class="card border-0 shadow" style="background:rgba(33, 137, 30, .8); border-radius: 25px;">
-                <img src="imgs/imagen-arturo.png" data-bs-toggle="modal" data-bs-target="#modalTecnicoDos" class="img-fluid img-card-top" width="200" alt="Logo Grupo Bimbo">
+        <div class="col d-flex justify-content-center">
+            <div class="card border-0 shadow" style="background:rgba(33, 137, 30, .8); border-radius: 50%;">
+                <img src="imgs/Foto-para-reseña.png" data-bs-toggle="modal" data-bs-target="#modalTecnicoDos" class="img-fluid img-card-top" width="200" alt="Logo Grupo Bimbo">
             </div>
 
             <!-- Modal -->
@@ -370,30 +376,107 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            Biografía Técnico 
+                            Biografía arborista 
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
-                            <button type="button" class="btn btn-success">CTA´s</button>
                         </div>
                     </div>
                 </div>
             </div> 
         </div>  
 
+        <div class="col d-flex justify-content-center">
+            <div class="card border-0 shadow" style="background:rgba(33, 137, 30, .8); border-radius: 50%;">
+                <img src="imgs/Foto-para-reseña.png" class="img-fluid img-card-top pointer" data-bs-toggle="modal" data-bs-target="#modalTecnicoTres" width="200" alt="Logo Grupo Bimbo">
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade border-0" id="modalTecnicoTres" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalTecnicoTresLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalTecnicoUnoLabel">Nombre</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Biografía arborista 
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <a href="https://twitter.com/intent/tweet?button_hashtag=WhatsHappening&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #WhatsHappening</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- Sección reporta -->
+ <div class="hero-reporta" style="background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('imgs/tree-front-garden.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; padding-top: 20px; padding-bottom:20px;">
+    <div class="container">
+        <div class="text-acciones" style="margin-top: 50px; margin-bottom: 50px;">
+            <h2 class="text-center text-white display-4 fw-bold">
+                Reporta   
+            </h2>
+
+        </div>
+
+        
+
+        <div class="row row-cols-1 justify-content-evenly" style="height: 400px; background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)); backdrop-filter: blur(1px); ">
+
+            <div class="col d-grid align-items-center justify-content-center" >
+                <div class="card border-0 bg-transparent">
+                    <p class="text-center h3 text-white">Texto introductorio (si haz visto alguna mala práctica o algo parecido..... )</p>
+                    <p class="text-center h3 text-white">Puedes hacer tu reporte a la PAOT a través del siguiente botón :</p>
+                </div>
+                
+            </div>
+
+            <div class="col-4">
+                <div class="card border-0 bg-transparent d-flex justify-content-center">
+                    <a class="btn btn-success" target="_blank" href="https://paot.org.mx/denunciantes/inicia-tu-denuncia.php" style="border-radius: 25px!important;">Reporta la PAOT</a>
+                </div>
+            </div>
+            
+        </div>
+        
     </div>
-    
-</div>
+ </div>
+
 
 <!-- Sección donativo -->
+<div class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Dona para obtener una recompensa -->
+                 <p></p>
+            </div>
+        </div>
+    </div>
 
-<!-- Mapa de resultados 2da etapa (trabajarlo) -->
+    <div class="text-acciones" style="margin-top: 50px; margin-bottom: 50px;">
+        <h2 class="text-center text-warning">
+                Dona para obetener una recompensa  
+        </h2>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col d-flex justify-content-center">
+            <a href="#" class="btn btn-warning text-white" style="padding-right: 15px; padding-left: 15px; border-radius: 50px;">GoFundMe </a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p class="verde-primary text-center"> footer </p>
+    </div>
+</footer>
+
 <!-- Chatbot con preguntas frecuentes -->
 <!-- Footer -->
 
@@ -402,5 +485,8 @@
 
 <script src="src/js/header.js"></script>
 <script src="src/js/body.js"></script>
+
+<!-- leaflet Map -->
+<script src="src/js/actions-map.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </html>

@@ -61,11 +61,11 @@ body {
 
 /* Nav */
 #navegacion {
+    padding: 10px 20px;
     animation: fadeInDown 0.5s ease forwards;
     transition: padding 0.4s ease, background 0.4s ease, transform 0.4s ease;
 }
 #navegacion.shrink {
-    padding: 10px 20px;
     background: rgba(255,255,255, .6);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px); 
@@ -131,6 +131,44 @@ body {
     font-size: 18px;
 }
 
+/* ¿Qué es Va por los árboles? */
+.hero-index {
+    position: relative;
+    min-height: 500px;
+}
+
+.hero-index-about {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* centrado horizontal */
+    width: 100%; /* opcional: para ocupar el ancho completo */
+}
+/* para pantallas grandes */
+.hero-index  {
+    height: 900px;
+}
+
+/* Para laptops ≥992px */
+@media screen and (max-width: 992px) {
+    .hero-index  {
+        height: 1000px;
+    } 
+}
+
+/* Para tablets ≥768px */
+@media screen and (max-width: 768px) {
+    .hero-index  {
+        height: 900px;
+    } 
+}
+
+/* Para dispositivos móviles */
+@media screen and (max-width: 576px) {
+    .hero-index  {
+        height: 1100px;
+    } 
+}
 
 /* Actions Section (Videos) */
 .content-video-yt  {
@@ -181,7 +219,7 @@ body {
 
 .actions-content-map {
     width: 450px;
-    max-height: 450px; /* Ajusta la altura máxima */
+    max-height: 750px; /* Ajusta la altura máxima */
 
     overflow-y: auto; /* Actica el scroll vertical cuando sea necesario  */
     padding: 10px;
@@ -253,7 +291,6 @@ body {
 /* Seccción biogafía */
 
 /* Sección Reporta */
-
 
 
 

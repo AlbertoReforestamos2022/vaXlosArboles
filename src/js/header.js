@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const alto = menu.offsetHeight;
 
     const marginafterMenu = document.querySelector('.first-content-after-menu');
-    marginafterMenu.style.marginTop = `${alto}px`; 
+    marginafterMenu.style.paddingTop = `${alto}px`; 
 
     }
 

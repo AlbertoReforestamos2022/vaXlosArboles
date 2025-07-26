@@ -59,7 +59,7 @@
                 </div>
             </div>
 
-            <div class="row row-cols-auto align-items-center">
+            <div class="row row-cols-auto d-md-flex align-items-center d-block">
                 <div class="d-grid justify-content-center justify-content-md-end align-items-md-center">
                     <ul class="d-flex list-unstyled gap-3 m-0">
                         <li class="nav-item text-decoration-none text-center">
@@ -90,7 +90,7 @@
 
                 </div>
 
-                <div class="">
+                <div class=" d-flex justify-content-center p-3 p-md-2">
                     <a class="btn btn-warning text-white px-4 btn-foundiing" style="border-radius: 15px!important;" href="#"> GoFundMe </a>
                 </div>
             </div>
@@ -99,12 +99,12 @@
     </div>
 </nav>
 <!-- section Hero -->
- <div class="hero first-content-after-menu d-grid align-items-center" style="background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('imgs/vista-de-arboles-en-el-parque.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; ">
-    <div class="container" style="padding-top: 50px;">
+ <div class="hero-index first-content-after-menu d-grid align-items-center" style="background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('imgs/vista-de-arboles-en-el-parque.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed; ">
+    <div class="container hero-index-about" style="padding-top: 50px;">
         <div class="row row-cols-1 row-cols-lg-2 flex-row-reverse justify-content-end align-items-center ">
             <div class="col in-right">
-                <div class="rounded shadow px-4 py-5 text-justify" style="background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)); backdrop-filter: blur(1px);" >
-                    <p class="text-white text-intro"> 
+                <div class="rounded shadow px-4 py-5 text-justify" style="background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)); backdrop-filter: blur(1px);" >
+                    <p class="h3 text-white fw-light"> 
                         <span class="strong-letter">VaXlosArboles</span> es una iniciativa de <span class="strong-letter">Supercívicos</span>, <span class="strong-letter">Reforestamos</span> e <span class="strong-letter">Imperfect Project</span>,
                         diseñada para crear conciencia y movilizar acciones que protejan el arbolado urbano
                         y los bosques de México. La campaña busca empoderar a los ciudadanos,
@@ -128,7 +128,7 @@
 
  
 <!-- Logos of member´s proyect -->
-<div class="hero " style="background: #94ce58;">
+<div class="hero" style="background: #94ce58;">
     <div class="container">
         <div class="row row-cols-1 row-cols-md-auto justify-content-lg-between justify-content-center">
             <div class="col d-grid align-items-center justify-content-center p-3 p-md-auto in-left-three">
@@ -233,13 +233,13 @@
 
     <!-- Incorporar mapa de acciones -->
     <!-- Mapa de resultados 2da etapa (trabajarlo) -->
-    <div class="container">
-        <p class="text-center h3" style="color: #94ce58!important;" >Conoce los lugarres donde se está tomando acción:</p>
+    <div class="container" style="margin-top: 40px;">
+        <p class="text-center h2" style="color: rgba(96, 72, 43, 1)!important;" >Conoce los lugarres donde se está tomando acción:</p>
 
         <div class="row row-cols-1 justify-content-center">
             <div class="col-12 py-3">
                 <div class="card border-0">
-                    <div class="shadow rounded" id="actionsMap" style="height: 500px;">
+                    <div class="shadow rounded" id="actionsMap" style="height: 700px;">
 
                     </div>
                 </div>
@@ -253,7 +253,7 @@
 </div>
 
 <!-- Guides tools  --> 
- <div class="hero" style="background: rgba(33, 137, 30, .8); padding-top: 100px; padding-bottom: 100px;">
+ <div class="hero" style="background: rgba(33, 137, 30, .8); padding-top: 70px; padding-bottom: 100px;">
     <div class="text-acciones" style="margin-bottom: 50px;">
         <h2 class="text-center display-2 text-white"> Herramientas </h2>
     </div>
@@ -266,25 +266,25 @@
 
                     <div class="letter-content-tool">
                         <ul class="list-group border-0 shadow">
-                            <li class="list-group-item border-0">
-                                <a href="#" class="btn btn-outline-success m-2 text-center">
+                            <li class="list-group-item border-0" >
+                                <button type="button" class="btn btn-outline-success m-2 text-center w-100" id="naturalistToolTip">
                                     ¡Naturalist 
-                                </a>
+                                </button>
                             </li>
                             <li class="list-group-item border-0">
-                                <a href="#" class="btn btn-outline-success m-2 text-center">
+                                <button type="button" class="btn btn-outline-success m-2 text-center w-100" id="ReporteAmbientalToolTip">
                                     Reporte ambiental ciudadano
-                                </a>
+                                </button>
                             </li>
                             <li class="list-group-item border-0">
-                                <a href="#" class="btn btn-outline-success m-2 text-center">
+                                <button type="button" class="btn btn-outline-success m-2 text-center w-100" id="arbolEncoloniaToolTip">
                                     ¿Cómo cuido el árbol en mi colonia?
-                                </a>
+                                </button>
                             </li>
                             <li class="list-group-item border-0">
-                                <a href="#" class="btn btn-outline-success m-2 text-center">
+                                <button type="button" class="btn btn-outline-success m-2 text-center w-100" id="plantarArbolToolTip">
                                     ¿Qué árbol plantar? 
-                                </a>
+                                </button>
                             </li>
                         </ul>
                     </div>
@@ -293,8 +293,52 @@
             </div>
 
             <div class="col col-md-4 container-transition-right scroll-right">
-                <div class="card d-grid align-items-center border-0 bg-white shadow rounded h-100">
+                <div class="card d-grid align-items-center border-0 bg-white shadow rounded h-100" style="border-radius: 25px!important;">
                     <div class="card-body">
+                        <div class="toast-container p-3">
+                            <div class="toast" id="naturalistToolTip" role="alert" aria-live="assertive" aria-atomic="ture">
+                                <div class="toast-header">
+                                    <button class="btn-close" data-bs-dismiss="tost" aria-label="close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    <p>información Naturalista</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="toast-container p-3">
+                            <div class="toast" id="ReporteAmbientalToolTip" role="alert" aria-live="assertive" aria-atomic="ture">
+                                <div class="toast-header">
+                                    <button class="btn-close" data-bs-dismiss="tost" aria-label="close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    <p>Reporte ambiental ciudadano</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="toast-container p-3">
+                            <div class="toast" id="arbolEncoloniaToolTip" role="alert" aria-live="assertive" aria-atomic="ture">
+                                <div class="toast-header">
+                                    <button class="btn-close" data-bs-dismiss="tost" aria-label="close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    <p>¿Cómo cuido el árbol en mi colonia?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="toast-container p-3">
+                            <div class="toast" id="plantarArbolToolTip" role="alert" aria-live="assertive" aria-atomic="ture">
+                                <div class="toast-header">
+                                    <button class="btn-close" data-bs-dismiss="tost" aria-label="close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    <p>¿Qué árbol plantar? </p>
+                                </div>
+                            </div>
+                        </div>                                                
+
                         <p>
                             Texto que indique que se tiene que hacer clic en los botones de la lista del teléfono. 
                         </p>
@@ -309,19 +353,19 @@
  </div>
 
 <!-- Sponsor´s section  -->
-<div class="container">
+<div class="container" >
     <div class="text-acciones" style="margin-top: 50px;">
         <h2 class="text-center display-4 verde-primary"> 
             Aliados
         </h2>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-auto justify-content-evenly align-items-center my-5">
-        <div class="col d-flex justify-content-center my-3 container-transition-left scroll-left">
+    <div class="row row-cols-1 row-cols-md-auto justify-content-evenly align-items-center my-5" style="height: 400px;">
+        <div class="col d-flex justify-content-center my-3">
             <img src="imgs/logo-bimbo-copia.png" class="img-fluid" width="200" alt="Logo Grupo Bimbo">
         </div>
 
-        <div class="col my-3 container-transition-right scroll-right">
+        <div class="col my-3">
             <h2 class="fw-bold text-center">Fundación Pepe</h2>
         </div>        
     </div>
@@ -333,11 +377,11 @@
 <div class="container" style="margin-top: 20px; margin-bottom: 50px;">
     <div class="text-acciones" style="margin-top: 50px; margin-bottom: 50px;">
         <h2 class="text-center verde-primary display-4"> 
-            Técnicos arboristas
+            Nuestros asesores arboritas especialistas
         </h2> 
     </div>
 
-    <div class="row row-cols-1 row-cols-md-auto justify-content-center align-items-center gap-3">
+    <div class="row row-cols-1 row-cols-md-auto justify-content-center align-items-center gap-3" style="height: 400px;">
         <div class="col d-flex justify-content-center">
             <div class="card border-0 shadow" style="background:rgba(33, 137, 30, .8); border-radius: 50%;">
                 <img src="imgs/Foto-para-reseña.png" class="img-fluid img-card-top pointer" data-bs-toggle="modal" data-bs-target="#modalTecnicoUno" width="200" alt="Logo Grupo Bimbo">
@@ -425,7 +469,7 @@
 
         
 
-        <div class="row row-cols-1 justify-content-evenly" style="height: 400px; background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)); backdrop-filter: blur(1px); ">
+        <div class="row row-cols-1 justify-content-evenly " style="height: 400px; background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)); backdrop-filter: blur(1px); border-radius: 25px!important; ">
 
             <div class="col d-grid align-items-center justify-content-center" >
                 <div class="card border-0 bg-transparent">
